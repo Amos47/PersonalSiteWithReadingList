@@ -1,0 +1,16 @@
+/* Put your CSS here */
+html, body {
+    margin: 30px 0;
+}
+
+.data-ember-extension{
+	background: #2b3e50;
+}
+
+.book-well {
+	min-height: 500px;
+}
+
+.coverImage img{
+	min-height: 300px;
+}

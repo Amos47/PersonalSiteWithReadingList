@@ -1,0 +1,20 @@
+<div class="well book-well">
+	<div class="text-center">
+		<h1>{{title}}</h1>
+		{{#if subTitle}}
+			<h4 >{{subTitle}}</h4>
+		{{/if}}
+	</div>
+	<div id="coverImage" class="col-md-3">
+		
+		<img {{bind-attr src=coverImage}} alt="Cover">
+
+		<div><small>Image provided by openlibrary.org's api</small></div>
+	</div>
+	<div class="col-md-9">
+	<p><strong>Author(s): </strong></p>
+	<p>{{author}}</p>
+	<p><strong>Comments</strong></p>
+	<p>{{comments}}</p>
+	</div>
+</div>

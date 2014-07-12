@@ -1,0 +1,19 @@
+<div class="well">
+	<h1>Reading List</h1>
+	<ol>
+	{{#each}}
+		<li class="book-item">
+		<!--
+			<h3>{{title}}</h3>
+			{{#if subTitle}}
+				<h5>{{subTitle}}</h5>
+			{{/if}}
+			<p><strong>Author(s): </strong>{{author}}</p>
+			<p><strong>Comments</strong></p>
+			<p>{{comments}}</p>
+		-->
+		{{#link-to 'book' this}}<h4><strong>{{title}}</strong> by {{author}}</h4>{{/link-to}}
+		</li>
+	{{/each}}
+	</ol>
+</div>

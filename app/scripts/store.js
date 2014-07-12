@@ -1,0 +1,1 @@
+Personalsite.ApplicationAdapter = DS.FixtureAdapter;
